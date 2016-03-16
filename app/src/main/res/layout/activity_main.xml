@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.springcard.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/crocus"
+        android:padding="0dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="May Spring Begin!"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#DCEDC8"
+        android:textStyle="italic|bold"
+        android:textSize="40sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="28dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"/>
+    <TextView
+        android:id="@+id/poem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:fontFamily="sans-serif-light"
+        android:padding="16dp"
+        android:textColor="#E6EE9C"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:text=" The air is cool, the breeze is light.\n
+The clouds in the sky are fluffy and white.\n
+\n
+The flowers open to show their bright faces,\n
+as the garden snail alongside paces.\n
+\n
+The trees unfold their bright green leaves.\n
+The spider a silken web she weaves.\n
+\n
+The birds sing their notes high and clear.\n
+Cheer up! Cheer up! Spring is here!\n
+" />
+
+    <TextView
+        android:id="@+id/poemAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/poem"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="0dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#E6EE9C"
+        android:textStyle="italic"
+        android:textSize="12sp"
+        android:text="by Teresa Underwood" />
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="8dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#DCEDC8"
+        android:textStyle="italic|bold"
+        android:textSize="24sp"
+        android:text="From alla24" />
+</RelativeLayout>
